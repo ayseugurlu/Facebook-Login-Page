@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #EFF2F5 ;
+    
+}
+
+.container{
+    /* background-color: #EFF2F5 ;
+    border: 2px solid red; */
+    width: 100vh;
+}  
+
+header{
+    width: 50vh;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    
+
+}
+
+main{
+    /* border: 2px solid red; */
+    width: 60vh;
+    position: relative;
+    top: -80px;
+    left: 850px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing:content-box;
+    
+}
+
+.foot{
+    width: 150vh;
+    position: relative;
+    left: 200px;
+    background-color: white;
+    padding: 20px;
+
+    
+}
+footer{
+    background-color: white;
+    margin-top: 200px;
+}
+
+
+
+#email, #password, #anmelden{
+
+    width: 55vh;
+    padding: 15px;
+    margin:15px 10px 10px 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.428);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    
+}
+#email:hover,#password:hover, #anmelden:hover{
+    border: 1px solid #1A77F2;
+}
+
+#anmelden{
+    background-color: #1A77F2; 
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#anmelden:hover{
+    filter: brightness(90%);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #1A77F2 ;
+}
+
+.par1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 550px;
+}
+
+#link1{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 120px;
+    margin-bottom: 1rem;
+
+    
+}
+
+#link1:hover{
+    text-decoration: underline;
+}
+
+#link2{
+    display: inline-block;
+    background-color: #35A420;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 90px;
+    border-radius: 10px;
+
+}
+#link2:hover{
+    filter: brightness(90%);
+}
+
+.par2{
+    position: relative;
+    left: 730px;
+    top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+#link3{
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+#link3:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.paragraf{
+    word-spacing: 10px;
+    color: gray;
+    padding: 5px;
+    line-height: 1.5rem;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraf2{
+    
+    color: gray;
+    padding: 5px;
+    line-height: 1.5rem;
+    font-size: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
